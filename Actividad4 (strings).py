@@ -18,3 +18,11 @@ print("python\nchallenge")
 print("Nombre\tsemana1\tsemana2\tsemana3")
 print("simbolo(\\)")
 print(f"Mi nombre es:{Nombre} y mi Apellido es {Apellido}")
+Nombre= "python"
+a,b,c,d,e,f = Nombre
+print(a,b,c,d,e,f)
+info= "python"
+print(info[2])
+print(info[::-2])
+frase = "soy del ISM"
+print(frase.capitalize())
