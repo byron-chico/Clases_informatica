@@ -41,3 +41,26 @@ for letra in palabra:
         consonantes += 1
 
 print(f"La palabra '{palabra}' tiene {vocales} vocales y {consonantes} consonantes, tiene {consonantes + vocales} caracteres en total")
+
+#%%
+it_companies = {"Facebook, Google, Apple, Amazon"}
+for company in it_companies:
+    print(company)
+
+#%%
+Lista = [1, 2, 3, 4, 5]
+numeros= input("Ingrese un numero: ")
+for numero in Lista:
+    if numero == numeros:
+        print("Numero encontrado")
+        break
+else:
+    print("Numero no encontrado")
+#%%%
+cedula = input("Ingrese numero de cedula: ")
+cedula_limpia = ""
+for Caracter in cedula:
+    if Caracter == "-" or Caracter == " ":
+        continue
+    cedula_limpia = cedula_limpia + Caracter
+    print(cedula_limpia)
