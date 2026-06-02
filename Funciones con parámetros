@@ -17,3 +17,24 @@ print(f"Nota 1: {n1}")
 print(f"Nota 2: {n2}")
 print(f"Nota 3: {n3}")
 print(f"Promedio: {promedio}")
+
+
+
+
+
+
+
+
+def obtener_mensaje():
+    mensaje = "Bienvenido al sistema"
+    return mensaje
+    
+def nombre_completo():
+    nombre = input ("Ingrese su nombre: ")
+    apellido = input("Ingrese su apellido: ")
+    espacio = " "
+    nombre_completo= nombre + espacio + apellido
+    return nombre_completo
+    
+print(obtener_mensaje())
+print(nombre_completo())
