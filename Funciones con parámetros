@@ -1,0 +1,19 @@
+def ingresar_datos():
+    nombre = input("Ingrese el nombre: ")
+    apellido = input("Ingrese el apellido: ")
+    nota1 = float(input("Ingrese la nota 1: "))
+    nota2 = float(input("Ingrese la nota 2: "))
+    nota3 = float(input("Ingrese la nota 3: "))
+    return nombre, apellido, nota1, nota2, nota3
+ 
+def calcular_promedio(n1, n2, n3):
+    return (n1 + n2 + n3) / 3
+nom, ape, n1, n2, n3 = ingresar_datos()
+promedio = calcular_promedio(n1, n2, n3)
+print("\n--- DATOS DEL ESTUDIANTE ---")
+print(f"Nombre: {nom}")
+print(f"Apellido: {ape}")
+print(f"Nota 1: {n1}")
+print(f"Nota 2: {n2}")
+print(f"Nota 3: {n3}")
+print(f"Promedio: {promedio}")
