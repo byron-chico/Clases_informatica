@@ -130,4 +130,7 @@ while True:
         break
     else:
         print("Opción no válida. Por favor, intente de nuevo.")
+         nota1 = float(input("Introduce la primera calificación: "))
+        nota2 = float(input("Introduce la segunda calificación: "))
+        nota3 = float(input("Introduce la tercera calificación: "))
         
