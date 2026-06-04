@@ -26,3 +26,43 @@ print(info[2])
 print(info[::-2])
 frase = "soy del ISM"
 print(frase.capitalize())
+
+#DEBER
+#Nivel 1
+texto = "Programación Para Todos"
+#%%
+print(texto)
+print("Cantidad de caracteres:", len(texto))
+#%%
+#Nivel 2
+print(texto.upper())
+print(texto.lower())
+print(texto.title())
+print(texto.capitalize())
+#%%
+#Nivel 3
+print(texto.startswith("Programación"))
+print(texto.endswith("Todos"))
+print(texto.find("Para"))
+print("Python" in texto)
+# %%
+#Nivel 4
+print(texto.replace("Programación", "Python"))
+
+palabras = texto.split()
+print(palabras)
+
+print(" - ".join(palabras))
+#%%
+# Nivel 5
+print(texto[0])
+print(texto[-1])
+print(texto[5])
+#%%
+#Nivel 6
+nombre = "Byron"
+apellido = "Chico"
+print(f"Hola, mi nombre es {nombre} {apellido}")
+
+# Acrónimo
+print(nombre[0] + apellido[0])
